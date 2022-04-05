@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #F2F2F2;
+    min-height: 100vh;
+}
+
+.container {
+    height: 50%;
+    padding: 65px 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-family: 'Public Sans';
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #33323D;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+
+}
+
+.titulo-1 {
+    width: 50%;
+    margin-top: 40px;
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #33323D;
+
+}
+
+.card-one {
+    width: 50%;
+    padding: 50px 0px 0px 5px;
+    margin-bottom: 150px;
+}
+
+
+.card-one p {
+    width: 635px;
+    height: 180px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+}
+
+.texto_1_icons {
+    margin-top: 54px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Daqui em diante a secao 2  */
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.titulo-2 {
+    width: 50%;
+    margin-top: 40px;
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 40px;
+    color: #33323D;
+}
+
+.class-inputs {
+    width: 50%;
+    list-style: none;
+    padding: 50px 0px 75px 0px;
+    margin-bottom: 150px;
+
+    font-family: 'Public Sans';
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.texto_input_nome {
+    margin-bottom: 8px;
+}
+
+.nome {
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 24px;
+    background-color: lightgray;
+}
+
+.texto_input_email {
+    margin-bottom: 8px;
+}
+
+.email {
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 24px;
+    background-color: lightgray;
+}
+
+.texto_input_mensagem {
+    margin-bottom: 8px;
+}
+
+.mensagem {
+    height: 96px;
+    width: 100%;
+    border: none;
+    margin-bottom: 24px;
+    background-color: lightgray;
+}
+
+.texticulo {
+    text-align: center;
+    padding-top: 15px;
+    justify-content: center;
+    height: 48px;
+    width: 200px;
+    border-radius: 0px;
+    background-color: #203A4C;
+    color: white;
+
+}
+
+.card-final {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.card-final h1 {
+    width: 35%;
+    font-family: 'Ibarra Real Nova';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.btn_contato {
+    height: 50%;
+    font-size: 15px;
+    padding: 17px 40px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #33323D;
+    padding: 25px 100px;
+}
+
+.footerList {
+    display: flex;
+    align-items: center;
+    color: #F2F2F2;
+    gap: 50px;
+    font-family: 'Public Sans';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.imgFooter {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}

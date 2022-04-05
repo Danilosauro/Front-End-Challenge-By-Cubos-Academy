@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F2F2;
+    min-height: 100vh;
+}
+
+.container {
+    height: 100%;
+    padding: 65px 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-family: 'Public Sans';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    width: 25%;
+}
+
+.section-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: white;
+    width: 45%;
+    height: 60%;
+}
+
+.section-one {
+    display: flex;
+    align-items: flex-end;
+    background-image: url("./image-homepage-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.section-card {
+    width: 40%;
+    height: 350px;
+}
+
+.section-card h2 {
+    padding: 20px 10px 20px 10px;
+    font-family: 'Ibarra Real Nova';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem-Bit {
+    width: 50%;
+    background-image: url("./image-homepage-profile.jpg");
+    background-size: cover;
+    height: 650px;
+}
+
+.card-two {
+    width: 40%;
+    padding: 50px 100px 75px 0px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    margin-bottom: 150px;
+}
+
+.card-two h1 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+
+.card-two p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #33323D;
+    margin-bottom: 30px;
+}
+
+.nav-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    width: 50%;
+    font-size: 15px;
+    padding: 17px 25px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #33323D;
+}
+
+.card-tree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.card-tree h1 {
+    width: 35%;
+    font-family: 'Ibarra Real Nova';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+
+}
+
+.btn_contato {
+    height: 50%;
+    font-size: 15px;
+    padding: 17px 40px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #33323D;
+    padding: 25px 100px;
+}
+
+.footerList {
+    display: flex;
+    align-items: center;
+    color: #F2F2F2;
+    gap: 50px;
+    font-family: 'Public Sans';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.imgFooter {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-sobreMim {
+    display: flex;
+    font-family: 'Public Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.btn-sobreMim img {
+    background: #1c3343;
+    padding: 16px 22px;
+}
+
+.btn-sobreMim p {
+    background: #203A4C;
+    padding: 16px 22px;
+    color: #F2F2F2;
+}

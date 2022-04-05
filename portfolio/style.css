@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #F2F2F2;
+    min-height: 100vh;
+}
+
+.container {
+    height: 100%;
+    padding: 65px 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-family: 'Public Sans';
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 25%;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imagem_1 {
+
+    width: 50%;
+    background-image: url("./image-portfolio-manage.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+}
+
+.card-one {
+    width: 40%;
+    padding: 50px 100px 75px 0px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    margin-bottom: 150px;
+}
+
+.card-one h1 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    margin-top: 54px;
+    margin-bottom: 40px;
+}
+
+.card-one p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #33323D;
+    margin-bottom: 30px;
+}
+
+.nav-btn {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 54px;
+}
+
+.btn {
+    width: 50%;
+    font-size: 15px;
+    padding: 17px 25px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #33323D;
+}
+
+/* a partir daqui secao 2 */
+
+.section-two {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-two {
+
+    width: 40%;
+    padding: 50px 100px 75px 0px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    margin-bottom: 150px;
+}
+
+.card-two h1 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    margin-top: 54px;
+    margin-bottom: 40px;
+}
+
+.card-two p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #33323D;
+    margin-bottom: 30px;
+}
+
+.nav-btn {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 54px;
+}
+
+.btn {
+    width: 50%;
+    font-size: 15px;
+    padding: 17px 25px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.imagem_2 {
+    width: 50%;
+    background-image: url("./image-portfolio-bookmark.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+}
+
+/*  a partir daqui secao 3 */
+
+.section-three {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-three {
+    width: 40%;
+    padding: 50px 100px 75px 0px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    margin-bottom: 150px;
+}
+
+.card-three h1 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    margin-top: 54px;
+    margin-bottom: 40px;
+}
+
+.card-three p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #33323D;
+    margin-bottom: 30px;
+}
+
+.nav-btn {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 54px;
+}
+
+.btn {
+    width: 50%;
+    font-size: 15px;
+    padding: 17px 25px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.imagem_3 {
+    width: 50%;
+    background-image: url("./image-portfolio-insure.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+}
+
+/* A partir daqui secao 4 */
+
+
+.section-four {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-four {
+    width: 40%;
+    padding: 50px 100px 75px 0px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    margin-bottom: 150px;
+}
+
+.card-four h1 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    margin-top: 54px;
+    margin-bottom: 40px;
+}
+
+.card-four p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #33323D;
+    margin-bottom: 30px;
+}
+
+.nav-four {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin-top: 54px;
+}
+
+.btn {
+    width: 50%;
+    font-size: 15px;
+    padding: 17px 25px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.imagem_3 {
+    width: 50%;
+    background-image: url("./image-portfolio-insure.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+}
+
+/* card final */
+
+.card-final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.card-final h1 {
+    width: 35%;
+    font-family: 'Ibarra Real Nova';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.btn_contato {
+    height: 50%;
+    font-size: 15px;
+    padding: 17px 40px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+/*  A partir daqui o footer  */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #33323D;
+    padding: 25px 100px;
+}
+
+.footerList {
+    display: flex;
+    align-items: center;
+    color: #F2F2F2;
+    gap: 50px;
+    font-family: 'Public Sans';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.imgFooter {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
